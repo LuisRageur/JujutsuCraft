@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujutsu Craft</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .logo img {
+            max-width: 150px;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Jujutsu Craft</h1>
+    </header>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#community">Communauté</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#team">Équipe</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <div class="logo">
+            <img src="data:image/jpeg;base64,{{logo_base64}}" alt="Logo de Jujutsu Craft">
+        </div>
+        <div class="content">
+            <h2>Introduction</h2>
+            <p>Bienvenue sur Jujutsu Craft, un serveur Minecraft unique en son genre inspiré de l'univers de Jujutsu Kaisen.</p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="content">
+            <h2>À propos de Jujutsu Craft</h2>
+            <p>Jujutsu Craft est un serveur Minecraft qui propose une expérience immersive basée sur le manga et l'anime Jujutsu Kaisen. Explorez, combattez et survivez dans un monde rempli de malédictions et de mystères.</p>
+        </div>
+    </section>
+    <section id="community">
+        <div class="content">
+            <h2>Notre Communauté</h2>
+            <p>Rejoignez notre communauté active et amicale sur Discord. Participez à des événements, discutez avec d'autres fans et bien plus encore !</p>
+            <a href="https://discord.gg/your-invite-link" target="_blank">Rejoindre le Discord</a>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="content">
+            <h2>Galerie</h2>
+            <p>Découvrez des moments mémorables et des captures d'écran de notre serveur Minecraft.</p>
+            <!-- Ajoutez ici des images ou vidéos de votre serveur -->
+        </div>
+    </section>
+    <section id="team">
+        <div class="content">
+            <h2>Notre Équipe</h2>
+            <p>Rencontrez les membres dévoués de notre équipe qui rendent tout cela possible.</p>
+            <!-- Ajoutez ici des descriptions et photos des membres de l'équipe -->
+        </div>
+    </section>
+    <section id="contact">
+        <div class="content">
+            <h2>Contact</h2>
+            <p>Pour toute question ou demande, n'hésitez pas à nous contacter via Discord ou en utilisant le formulaire ci-dessous.</p>
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Jujutsu Craft. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
